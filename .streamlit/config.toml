@@ -1,0 +1,9 @@
+[server]
+# Dev container / 포트 포워딩 환경에서 업로드 403(쿠키/XSRF) 문제 완화
+enableCORS = false
+enableXsrfProtection = false
+maxUploadSize = 200
+headless = true
+
+[browser]
+gatherUsageStats = false

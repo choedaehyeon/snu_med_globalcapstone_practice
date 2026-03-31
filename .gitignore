@@ -209,3 +209,5 @@ __marimo__/
 results/*.png
 !results/README.md
 
+.env
+
